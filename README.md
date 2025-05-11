@@ -20,10 +20,11 @@ Melalui proyek ini, kami:
 
 | Nama              | Peran             |
 |-------------------|------------------|
+| Muhammad Daffa Ezra Putra         | Project Manager  |
 | Fatur & Tim       | Data Analyst     |
 | [Nama Frontend]   | Frontend Dev     |
 | [Nama Backend]    | Backend Dev      |
-| [Nama PM]         | Project Manager  |
+
 
 ---
 
