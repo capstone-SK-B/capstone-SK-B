@@ -95,18 +95,4 @@ Melalui proyek ini, kami:
 
 ---
 
-## 🤝 Kontribusi
-
-Kami terbuka untuk kolaborasi dan saran, terutama dari pihak pemerintahan, komunitas GIS, dan pengembang lokal.
-
----
-
-## 📬 Kontak
-
-Untuk pertanyaan atau kerja sama:
-📧 Email: proyekjalankaltim@example.com  
-📍 Lokasi: Samarinda, Kalimantan Timur
-
----
-
 > _"Data jalan bukan hanya angka. Ia adalah suara dari lapisan aspal yang menopang aktivitas masyarakat."_  
