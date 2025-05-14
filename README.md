@@ -21,9 +21,9 @@ Melalui proyek ini, kami:
 | Nama              | Peran             |
 |-------------------|------------------|
 | Muhammad Daffa Ezra Putra         | Project Manager  |
-| Fatur & Tim       | Data Analyst     |
-| [Nama Frontend]   | Frontend Dev     |
-| [Nama Backend]    | Backend Dev      |
+| Muhammad Fa'iz      | Data Analyst     |
+| Rehan Pramana Putra   | Frontend Dev     |
+| Fajar Syafatoni Raihanadif & Swung Galih Triadmojo    | Backend Dev      |
 
 
 ---
@@ -90,8 +90,8 @@ Melalui proyek ini, kami:
 - [x] Desain UI/UX
 - [x] Pengumpulan dataset
 - [x] Analisis clustering kondisi jalan
-- [ ] Integrasi website pelaporan ke database
-- [ ] Deployment final & dokumentasi
+- [X] Integrasi website pelaporan ke database
+- [X] Deployment final & dokumentasi
 
 ---
 
