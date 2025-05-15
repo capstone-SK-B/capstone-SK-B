@@ -122,7 +122,7 @@ Sebuah mini‑API berbasis **FastAPI** yang dapat memprediksi prioritas perbaika
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/capstone-SK-B/capstone-SK-B/tree/main/road_clustering_api
+git clone https://github.com/capstone-SK-B/capstone-SK-B.git
 cd road_clustering_api
 
 ```
