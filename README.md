@@ -85,6 +85,89 @@ Melalui proyek ini, kami:
 
 ---
 
+## 🚢 Road Clustering FastAPI
+
+Sebuah mini‑API berbasis **FastAPI** yang dapat memprediksi prioritas perbaikan jalan (cluster) berdasarkan input kondisi ruas jalan.
+
+### 📁 Struktur File
+
+```bash
+├──road_clustering_api/
+  │ ├── app/
+    │ ├── main.py 
+    │ ├── utils.py
+    │ ├── schemas.py
+  │ └── model/
+      │ ├── kmeans_model.pkl
+      │ └── scaler.pkl
+  ├── requirements.txt 
+  ├── run.py 
+```
+
+### 🚀 Fitur API
+
+- Prediksi cluster prioritas perbaikan jalan  
+- Menerima input melalui metode POST  
+- Output berupa nomor cluster
+
+| Nomor Cluster | Deskripsi |
+| --- | --- |
+| 0  | Tidak Prioritas  |
+| 1  | Prioritas        | 
+
+---
+
+## ⚙️ Cara Menjalankan FastAPI
+
+### 1. Clone Repositori
+
+```bash
+git clone https://github.com/capstone-SK-B/capstone-SK-B/tree/main/road_clustering_api
+cd road_clustering_api
+
+```
+### 2. Buat Virtual Environment
+```
+python -m venv .env
+
+.env\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Jalankan API
+```
+python run.py
+```
+
+### 5. Akses Swagger UI
+Buka browser kemudian akses laman berikut:
+ <http://127.0.0.1:8000/docs>
+
+### Contoh Input
+```
+{
+  "Panjang_Ruas_Km": 14.5,
+  "Aspal": 20.0,
+  "Beton": 30.0,
+  "Kerikil": 0.0,
+  "Tanah": 0.0,
+  "Rasio_Baik": 0.5,
+  "Rasio_Rusak": 0.2
+}
+
+```
+### Contoh Output
+```
+{
+  "cluster": 1
+}
+```
+
 ## ✅ Status Proyek
 
 - [x] Desain UI/UX
